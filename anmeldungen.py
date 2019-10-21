@@ -9,7 +9,7 @@ for f in files:
         #print (f + " ist eine CSV-Datei")
         with open(f) as fp:
             for line in fp:
-                lines.append(line)
+                lines.append(line.strip())
 
 with open(destFile,"w+") as dest:
     dest.write("sep=,\n")

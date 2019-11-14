@@ -3,7 +3,7 @@ from exchangelib import *
 # from sqlalchemy import create_engine
 # from sqlalchemy.orm import *
 
-# SUPPLY REGISTRATION INFORMATION FOR EXCHANGE SERVER
+# Supply registration information for exchange server
 credentials = Credentials("")
 account = Account("", credentials=credentials, autodiscover=True)
 
